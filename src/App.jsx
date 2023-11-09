@@ -58,7 +58,7 @@ function App() {
     <BrowserRouter>
       <div className='grid-container'>
         <Header OpenSidebar={OpenSidebar} />
-        <Sidebar openSidebarToggle={openSidebarToggle} onItemSelect={onItemSelect}  />
+        <Sidebar openSidebarToggle={openSidebarToggle} onItemSelect={onItemSelect}/>
         <Routes>
           <Route
             path="/Users"
